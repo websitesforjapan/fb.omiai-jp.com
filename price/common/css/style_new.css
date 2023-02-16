@@ -1,0 +1,644 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color:#ffffff;
+	color:#666666;
+	padding:0;
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", verdana, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif	
+}
+
+
+/* ------------main header------------*/
+.main{
+	background-color:#ddceb3;
+}
+
+.main .main_inner{
+	background: url(../img/new/main_header.png) no-repeat center center; 
+	margin:0 auto;
+	height:566px; 
+	position:relative;
+	width:950px;
+	background-size:auto;
+}
+.main .main_inner img.iphone{
+	 position:absolute; 
+	 top:31px; 
+	 left:46px;
+}
+.main .main_inner .main_caption{
+	position:absolute; 
+	top:336px; 
+	left:413px;
+	text-align:center;
+	color:#ffffff;
+}
+
+/* ------------media------------*/
+.media{
+	width:950px;
+	margin:0 auto 40px auto;
+}
+.media h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	margin:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+
+/* ------------safe_reason------------*/
+.safe_reason{
+	background-color:#deedf9;
+}
+.safe_reason_inner{
+	width:950px;
+	margin:0 auto;	
+}
+.safe_reason_inner h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	padding:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.safe_reason_inner img{
+	float:left;
+	margin:0 0 50px 0;
+}
+
+/* ------------without anxiety------------*/
+.without_anxiety{
+	width:950px;
+	margin:0 auto 40px auto;
+}
+
+.without_anxiety h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	padding:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.without_anxiety .without_anxiety01,.without_anxiety .without_anxiety02,.without_anxiety .without_anxiety03{
+	float:left;
+}
+
+.without_anxiety .without_anxiety01{
+	width:243px;
+	margin-right:63px;
+}
+.without_anxiety .without_anxiety02{
+	width:335px;
+	margin-right:57px;
+}
+.without_anxiety .without_anxiety03{
+	width:252px;
+}
+.without_anxiety h2{
+	color:#e33675;
+	font-weight:normal;
+	font-size:22px;
+	text-align:center;
+	margin-bottom:10px;
+	line-height:1.4em;
+}
+.without_anxiety .register_btn{
+	 margin:32px 0 0 234px;
+}
+
+/* ------------2step------------*/
+.two_step{
+	background-color:#deedf9;
+}
+.two_step h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	padding:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.two_step .two_step_inner{
+	width:937px;
+	margin:0 auto;
+}
+.two_step .two_step_inner img{
+	float:left;
+}
+.two_step .two_step_inner img.step1{
+	margin-right:29px;
+}
+.two_step .two_step_inner img.step2{
+	padding:56px 0 65px 0;
+}
+
+/* ------------questionnaire------------*/
+.questionnaire{
+	background-color:#252916;
+}
+.questionnaire .questionnaire_wrap{
+	background: url(../img/new/questionnaire_back.html) no-repeat center center; 
+	margin:0 auto;
+	height:527px; 
+	background-size:auto;
+}
+.questionnaire .questionnaire_wrap h1{
+	color:#ffffff;
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	padding:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.questionnaire .questionnaire_wrap .questionnaire_wrap_inner{
+	width:760px;
+	margin:0 auto;
+	
+}
+.questionnaire .questionnaire_wrap img{
+	float:left;
+	margin-right:26px;
+}
+.questionnaire .questionnaire_wrap .questionnaire_result{
+	color:#ffffff;
+	font-weight:normal;
+	float:left;
+	padding-top:50px;
+}
+.questionnaire .questionnaire_wrap .questionnaire_result p.quastion{
+	border:1px solid #ffffff;
+	font-size:19px;
+	padding:18px 21px;
+	line-height:1.5em;
+	letter-spacing:2px;
+}
+.questionnaire .questionnaire_wrap .questionnaire_result p.answer{
+	font-size:22px;
+	margin:20px 0;
+}
+.questionnaire .questionnaire_wrap .questionnaire_result p.result{
+	font-size:95px;
+	margin:20px 0;
+}
+
+/* ------------good_match_report------------*/
+.good_match_report{
+	background-color:#deedf9;
+}
+.good_match_report .good_match_report_01{
+	width:950px;
+	margin:0 auto;
+}
+.good_match_report .good_match_report_01 h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	padding:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.good_match_report .good_match_report_01 img{
+	float:left;
+}
+.good_match_report .good_match_report_01 img.good_match_couple_01,.good_match_report .good_match_report_01 img.good_match_couple_02{
+	margin-right:34px;
+}
+.good_match_report .good_match_report_01 img.good_match_couple_01,.good_match_report .good_match_report_01 img.good_match_couple_03{
+	padding-top:65px;
+}
+.good_match_report .good_match_report_02{
+	background: url(../images/urban_back.html) no-repeat center center; 
+	height:400px;
+	margin:0 auto;	
+}
+.good_match_report .good_match_report_02 .good_match_report_02_inner{
+	width:599px;
+	margin:0 auto;
+	padding-top:50px;
+}
+.good_match_report .good_match_report_02 .good_match_report_02_inner img{
+	float:left;
+}
+.good_match_report .good_match_report_02 .good_match_report_02_inner img.comming_soon_01{
+	margin-right:71px;
+}
+
+/* ------------last_section------------*/
+ .last_section{
+	 width:950px;
+	 margin:0 auto;	 
+ }
+  .last_section h3{
+	  text-align:center;
+	font-weight:normal;
+	font-size:30px;
+	padding:50px 0 13px 0;
+	letter-spacing:-1px;
+  }
+ .last_section p.caption{
+	 text-align:center;
+	 font-size:26px;
+	 color:#e33675;
+ }
+ .last_section img.register_btn{
+	 margin:13px 0 20px 234px;
+}
+.last_section p.attention{
+	font-size:16px;
+	text-align:center;
+	line-height:1.5em;	
+}
+
+/* ------------footer_navi------------*/
+.footer_navi ul {
+  width:1000px;
+  margin:38px auto 31px auto;
+   text-align:center;
+   line-height:1.0em;
+}
+.footer_navi ul li {
+  display: inline-block;
+  font-size: 11px;
+  border-right:1px solid #393939;
+  padding:0 10px;
+  list-style:none;
+ 
+} 
+.footer_navi ul li a{
+	color:#666666;
+	text-decoration:none;	
+}
+.footer_navi ul li.last{
+  border-right:1px solid #393939;
+} 
+
+.footer_navi .copyright{
+	 text-align:center;
+	 font-size:12px;
+	 color:#666666;
+	 margin-bottom:20px;
+}
+
+/* ------------page-top------------*/
+#page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 77%;
+}
+#page-top a {
+	background: #777;
+	text-decoration: none;
+	color: #fff;
+	width: 2.4em;
+	padding: 0.6em 0.2em 0 0.2em;
+	text-align: center;
+	display: block;
+	border-radius: 100%;
+	height: 2.2em;
+	opacity: 0.65;
+	-webkit-border-radius: 100%;
+	line-height: 1.9em;
+	font-size: 20px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #CCC;
+}
+
+/* ------------link------------*/
+header navi ul li a{
+	text-decoration:none;
+	color:#666666;
+}
+
+header navi ul li a:hover,.footer_navi ul li a:hover{
+	text-decoration:underline;	
+}
+
+/* ------------membership------------*/
+.main_membership {
+	background-image: url(../img/new/main_header_mem_bg.png) ;
+	height: 562px;
+}
+.main_inner_mem {
+	background: url(../img/new/main_header.png) no-repeat center center; /* ----修正・追加20160623----*/
+	margin: 0 auto;
+	height: 562px; 
+	position: relative;
+	width: 1021px;
+}
+.main_caption_mem h1 {
+	position: absolute;
+	top: 72px;
+	left :50%;/* ----修正・追加20160623----*/
+	font-size: 40px;
+	font-weight: normal;
+	letter-spacing: 4px;/* ----修正・追加20160623----*/
+	color: #fff;
+	text-align:center;/* ----修正・追加20160623----*/
+	width:1021px;/* ----修正・追加20160623----*/
+	margin-left:-510px;/* ----修正・追加20160623----*/
+}
+.header_copy1 {
+	position: absolute;
+	top: 162px;/* ----修正・追加20160623----*/
+	left: 50%;/* ----修正・追加20160623----*/
+	text-align: center;
+	font-size: 26px;/* ----修正・追加20160623----*/
+	letter-spacing: 2px;/* ----修正・追加20160623----*/
+	color: #fff;
+	width:1021px;/* ----修正・追加0160623----*/
+	margin-left:-510px;/* ----修正・追加20160623----*/
+}
+.header_copy2 {
+	position: absolute;
+	left: 50%;/* ----修正・追加20160623----*/
+	top: 220px;/* ----修正・追加20160623----*/
+	color: #ffcc66;
+	font-size: 42px;
+	letter-spacing: 4px;
+	width:1021px;/* ----修正・追加20160623----*/
+	margin-left:-510px;/* ----修正・追加20160623----*/
+	text-align:center;/* ----修正・追加20160623----*/
+	line-height:1.4em;/* ----修正・追加20160623----*/
+}
+.header_copy3 {
+	position: absolute;
+	left: 340px;
+	top: 300px;
+	color: #ffcc66;
+	font-size: 42px;
+	letter-spacing: 4px;
+}
+.header_copy4 {
+	position: absolute;
+	left: 410px;
+	top: 350px;
+	color: #ffcc66;
+	font-size: 42px;
+	letter-spacing: 4px;
+}
+.header_copy5 {
+	position: absolute;
+	left: 50%;/* ----修正・追加20160623----*/
+	top: 420px;
+	color: #ffcc66;
+	text-align: center;
+	font-size: 22px;/* ----修正・追加20160623----*/
+	line-height: 30px;
+	letter-spacing: 2px;
+	color: #fff;/* ----修正・追加20160623----*/
+	width:1021px;/* ----修正・追加20160623----*/
+	margin-left:-490px;/* ----修正・追加20160623----*/
+}
+.header_copy5 p {
+	font-size: 15px;
+	margin-top: 15px;
+	letter-spacing: 1px;
+}
+.membership {
+	margin: 0 auto;
+	width: 1000px;
+}
+.membership h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	margin:50px 0 30px 0;/* ----修正・追加20160623----*/
+	letter-spacing:-1px;
+}
+.mem_copy {
+	font-size:20px;/* ----修正・追加20160623----*/
+	line-height: 1.4em;/* ----修正・追加20160623----*/
+	text-align: center;
+}
+.features {
+	display: flex;
+	margin:40px 100px 0;/* ----修正・追加20160623----*/
+}
+
+.features img {
+	display: block;
+	margin:30px auto;
+}
+
+.feat01,
+.feat02 {
+	width: 50%;
+	font-size: 26px;
+	font-weight:bold;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+
+/* ----修正・追加20160623----*/
+.feat01 p,.feat02 p ,.feat03 p {
+	display: block;
+	font-size: 16px;
+	line-height: 1.4em;
+	font-weight:normal;
+	padding: 0;
+}
+
+/* ----修正・追加20160623----*/
+.feat01 p.title,.feat02 p.title ,.feat03 p.title{
+	line-height:1.2em;
+	color: #e33675;
+	font-size:26px;
+	font-weight:bold;
+	text-align: center;
+}
+
+/* ----修正・追加20160623----*/
+.feat01 p.title span,.feat02 p.title span,.feat03 p.title span{
+	font-size:18px;
+}
+
+.usage {
+	background-color:#deedf9;
+	margin-top: 50px;/* ----修正・追加20160623----*/
+	padding-top:60px;
+}
+.usage_inner {
+	text-align:center;
+}
+.usage_inner h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	margin:0 0 40px 0;
+	letter-spacing:-1px;
+}
+.usage_inner img{
+	max-width: 100%;
+	height:auto;
+}
+.usage_option {
+	margin: 0 auto 0 auto;
+	padding: 0 0 30px 32px;
+	/*border-bottom: 1px dotted #cccccc;*/
+	width: 920px;
+	text-align: left;
+}
+.usage_option img {
+	float: left;
+	margin-right: 25px;
+}
+.usage_option p {
+	display: block;
+	padding: 5px 0 5px 0;
+	font-size: 18px;
+	line-height: 28px;
+}
+.about_membership {
+	width: 920px;
+	margin: 40px auto 0 auto;
+	padding: 0 0 40px 28px;/* ----修正・追加20160623----*/
+	font-size: 22px;
+	font-weight: 700;
+	text-align: left;
+}
+.about_membership ul {
+	margin: 20px 0 0 20px;
+}
+.about_membership ol li{
+}
+.about_membership li {
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: normal;
+}
+.option_links{
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: normal;
+	text-align: center;
+}
+.option_links a{
+	color:#3F9AD1;
+}
+
+.faq h1 {
+	text-align:center;
+	font-weight:normal;
+	font-size:43px;
+	margin:60px 0 40px 0;
+	letter-spacing:-1px;
+}
+.faq {
+	width: 1000px;
+	margin: 0 auto;
+}
+.faq1 {
+	margin: 0 50px 50px 50px;
+	font-size: 20px;
+	line-height: 1.4em;/* ----修正・追加20160623----*/
+}
+.faq1 a{
+	color: #666666;
+}
+
+/* ----修正・追加20160623----*/
+.faq1 p.title {
+	display: block;
+	margin-bottom: 24px;
+	font-size: 28px;
+	color: #333333;
+	text-align:center;
+}
+
+/* ----修正・追加20160623----*/
+.faq1 p.text{
+	font-size:20px;
+	line-height:1.4em;
+}
+
+/* ----修正・追加20160623----*/
+.faq1 p.text2{
+	font-size:15px;
+	line-height:1.2em;
+	margin-top:10px;
+}
+
+.faq1 img {
+	float: right;
+	margin: 0 0 0 35px;
+}
+.last_section_mem{
+	background-color:#deedf9;
+	margin:0 auto;
+	text-align: center;
+	padding-bottom: 36px;
+}
+.last_section_mem h3{
+	text-align:center;
+	font-weight:normal;
+	font-size:30px;
+	padding:50px 0 13px 0;
+	letter-spacing:-1px;
+}
+.last_section_mem p.caption{
+	text-align:center;
+	font-size:26px;
+	color:#e33675;
+}
+.last_section_mem img {
+	margin: 13px 0 20px 0;
+}
+.last_section_mem p.attention{
+	font-size:13px;
+	text-align:center;
+	line-height:1.5em;	
+}
+.footer_navi_mem {
+	background-color: #deedf9;
+	margin: 0;
+}
+.footer_navi_mem ul {
+  width:1000px;
+  margin:0 auto 31px auto;
+   text-align:center;
+   line-height:1.2em;
+}
+.footer_navi_mem ul li {
+  display: inline-block;
+  font-size: 11px;
+  border-right:1px solid #393939;
+  padding:0 10px;
+  list-style:none;
+ 
+} 
+.footer_navi_mem ul li a{
+	color:#666666;
+	text-decoration:none;	
+}
+.footer_navi_mem ul li.last{
+  border-right:1px solid #393939;
+} 
+
+.footer_navi_mem {
+	 text-align:center;
+	 font-size:12px;
+	 color:#666666;
+}
+.copyright_mem{
+	text-align:center;
+	font-size:12px;
+	color:#666666;
+	padding-bottom: 20px;
+}
+/* ------------異性紹介事業者番号------------*/
+img.num_img{
+	vertical-align: bottom;
+	width:140px;
+	margin:0;
+	padding-bottom: 4px;
+}
+
+
+/* ------------ボタンhover------------*/
+.hover2:hover{
+	opacity:0.7;	
+}

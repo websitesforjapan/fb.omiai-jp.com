@@ -1,0 +1,57 @@
+<script src="../code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<header id="header_area">
+  <div class="inner">
+    <div class="box clearfix">
+      <div class="logo clearfix">
+        <h1><a href="index.html"><img src="common/image/logo_omiai_02.png" alt="Omiai"></a></h1>
+      </div>
+      <ul class="pc nav clearfix">
+        <li><a href="happyreport/index.html">良縁報告</a></li>
+        <li><a href="price/index.html">ご利用プラン</a></li>
+        <li><a href="koipass/index.html" target="_blank">コラム</a></li>
+      </ul>
+      <a href="javascript:toggle()" id="toggle_btn" class="sp"><span class="icon_toggle"></span></a>
+    </div>
+    <!-- navtoggle -->
+    <nav class="sp">
+      <ul id="layer_menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="happyreport/index.html">良縁報告</a></li>
+        <li><a href="price/index.html">ご利用プラン</a></li>
+        <li><a href="koipass/index.html" target="_blank">コラム</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<script type="text/javascript">
+document.getElementById("layer_menu").style.display="none";
+//メニュー開閉
+function toggle() {
+　switch (document.getElementById("layer_menu").style.display) {
+　　case "none":
+　　　document.getElementById("layer_menu").style.display="block";
+　　　document.getElementById("toggle_btn").innerHTML="<span class='icon_toggle02'></span>";
+　　　break;
+　　case "block":
+　　　document.getElementById("layer_menu").style.display="none";
+　　　document.getElementById("toggle_btn").innerHTML="<span class='icon_toggle'></span>";
+　　　break;
+　}
+}
+</script>
+
+<script type="text/javascript">
+  var navPos = jQuery( '#header_area' ).offset().top;
+  var navHeight = jQuery( '#header_area' ).outerHeight();
+  jQuery( window ).on( 'scroll', function() {
+    if ( jQuery( this ).scrollTop() > navPos ) {
+      jQuery( 'body' ).css( 'padding-top', navHeight );
+      jQuery( '#header_area' ).addClass( 'fixed' );
+    } else {
+      jQuery( 'body' ).css( 'padding-top', 0 );
+      jQuery( '#header_area' ).removeClass( 'fixed' );
+    }
+  });
+</script>
